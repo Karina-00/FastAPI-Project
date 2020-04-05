@@ -31,11 +31,11 @@ def test_receive_something():
                              "constant_data": "python jest super"}
 
 
-def test_method():
-    response = client.post("/method", json={})
-    assert response.status_code == 200
-    assert response.json() == {"method": "METHOD"}
+# def test_method():
+#     response = client.post("/method", json={})
+#     assert response.status_code == 200
+#     assert response.json() == {"method": "METHOD"}
 
-
-def test_patient():
-    response = client.post('/patient')
+#
+# def test_patient():
+#     response = client.post('/patient')

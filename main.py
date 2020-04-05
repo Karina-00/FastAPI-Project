@@ -39,7 +39,3 @@ def counter():
 def receive_something(rq: GiveMeSomethingRq):
     return GiveMeSomethingResp(received=rq.dict())
 
-
-@app.var("/method")
-def method():
-    return
